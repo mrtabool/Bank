@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="0" author="kirill_cher">
+        <tagDatabase tag="attempt_init-db_client-account-payment"/>
+    </changeSet>
+
+    <include file="changelog/2021-10-14-1300-init-db-client-account-payment.xml" relativeToChangelogFile="true"/>
+
+    <changeSet id="4" author="kirill_cher">
+        <tagDatabase tag="success_init-db_client-account-payment"/>
+    </changeSet>
+
+</databaseChangeLog>
